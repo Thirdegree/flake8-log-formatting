@@ -1,0 +1,7 @@
+[project]
+name = "flake8-log-formatting"
+version = "0.2.0"
+
+[project.entry-points.'flake8.extension']
+LOG = "flake8checker:run_flake8_plugin"
+
